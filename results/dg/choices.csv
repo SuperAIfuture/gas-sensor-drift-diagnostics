@@ -1,0 +1,5 @@
+method,regime,grid,lr,penalty
+ERM,batch6,2,0.001,0.0
+ERM,rolling,2,0.001,0.0
+CORAL,batch6,3,0.001,1.0
+CORAL,rolling,2,0.001,0.1

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite this repository and the original datasets when using these analyses."
+title: "Gas-sensor drift classification: feature reweighting, temporal validation, and interpolation"
+type: software
+authors:
+  - name: "SuperAIfuture"
+    website: "https://github.com/SuperAIfuture"
+version: "1.0.0"
+date-released: "2026-10-15"
+repository-code: "https://github.com/SuperAIfuture/gas-sensor-drift-diagnostics"
+license: MIT
+keywords:
+  - gas sensor
+  - temporal validation
+  - domain generalization
+  - interpolation

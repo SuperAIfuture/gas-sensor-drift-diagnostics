@@ -1,0 +1,41 @@
+{
+  "title": "Gas-sensor drift classification: feature reweighting, temporal validation, and interpolation",
+  "upload_type": "software",
+  "description": "Code, public-dataset copies, and reference predictions for chronological gas-sensor drift classification on the UCI drift trajectory and a separate 62-sensor dataset. Analyses compare index-ring feature summaries, temporal model selection, same-class interpolation controls, and a tabular ERM/CORAL adaptation. Code is MIT licensed; datasets and reference results are CC BY 4.0. Original dataset citations and third-party notices are included.",
+  "creators": [
+    {
+      "name": "SuperAIfuture"
+    }
+  ],
+  "license": "mit",
+  "version": "1.0.0",
+  "keywords": [
+    "gas sensors",
+    "sensor drift",
+    "temporal validation",
+    "domain generalization",
+    "data augmentation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/SuperAIfuture/gas-sensor-drift-diagnostics",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.24432/C5RP6W",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.24432/C5MK6M",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.15681119",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

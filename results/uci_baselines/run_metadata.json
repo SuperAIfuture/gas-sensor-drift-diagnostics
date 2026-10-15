@@ -1,0 +1,61 @@
+{
+  "dataset_views_identical": true,
+  "n_unique": 13910,
+  "n_source": 5933,
+  "n_target": 7977,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "grid": [
+    {
+      "C": 3.0,
+      "gamma": 0.003
+    },
+    {
+      "C": 3.0,
+      "gamma": "scale"
+    },
+    {
+      "C": 10.0,
+      "gamma": 0.003
+    },
+    {
+      "C": 10.0,
+      "gamma": "scale"
+    }
+  ],
+  "chosen_grid": {
+    "RAW": 2,
+    "RAW-MIX": 2,
+    "RING": 1,
+    "RING-CONC": 2,
+    "RING-MIX": 2
+  },
+  "source_validation": "batches 1-5 fit; batch 6 validation; select mean Macro-F1 across seeds; ties choose grid order",
+  "matched_grid": 0,
+  "ring_alpha": 0.4,
+  "beta_alpha": 0.8,
+  "per_pair": 40,
+  "concentration_bins": "pooled source 25/50/75 percentiles, not class specific",
+  "permutation_seed": 20261014,
+  "retrospective": true,
+  "target_used_for_fit_or_selection": false,
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "sklearn": "1.7.2"
+  },
+  "input_hashes": {
+    "uci224.zip": "91e8f466f202e7a093d657673ce47311c3e90416f7df3057966058961c351fe4",
+    "uci270.zip": "98fe3a30981a222dd4518fbcc3dddd45d5c0ce9b03ef6dc6fe5cf7a04cfbff5e"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "torch": "2.10.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA RTX 6000 Ada Generation",
+  "deterministic": true,
+  "python": "3.12.3",
+  "numpy": "2.1.3",
+  "grid": {
+    "ERM": [
+      [
+        0.0001,
+        0
+      ],
+      [
+        0.0003,
+        0
+      ],
+      [
+        0.001,
+        0
+      ],
+      [
+        0.003,
+        0
+      ]
+    ],
+    "CORAL": [
+      [
+        0.0001,
+        0.1
+      ],
+      [
+        0.0001,
+        1
+      ],
+      [
+        0.001,
+        0.1
+      ],
+      [
+        0.001,
+        1
+      ]
+    ]
+  },
+  "steps": 1000,
+  "per_domain_batch": 32,
+  "penalty_verification": "PASS: vectorized penalty matches pinned pairwise function",
+  "adaptation": "Two 128-unit ReLU layers; domain-balanced minibatches; DomainBed mean/covariance penalty vectorized without changing its definition; no target fitting; no class balancing; no early stopping"
+}
